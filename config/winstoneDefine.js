@@ -1,13 +1,13 @@
 const winston = require('winston');
 const logConfiguration = {
-    'transport' : [
+    'transport': [
         new winston.transports.File({
             filename: 'path'
         })
     ]
 }
 
-module.exports ={
+module.exports = {
     winston,
     logConfiguration
 }

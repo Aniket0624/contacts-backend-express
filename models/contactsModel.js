@@ -1,4 +1,6 @@
-const { client } = require("../config/clientDefine");
+const {
+    client
+} = require("../config/clientDefine");
 
 function getAllContacts() {
     return client.query('select * from contacts');
@@ -8,7 +10,7 @@ function getContactBy(params) {
     return client.query(` select * from contacts where lower(${params.query}) like '%${params.value}%' order by c_id;`)
 }
 
-function addNewContact(body){
+function addNewContact(body) {
     return client.query(`insert into contacts (first_name, last_name, mobile_no) values('${body.first_name}', '${body.last_name}', '+${body.mobile_no}');`)
 }
 

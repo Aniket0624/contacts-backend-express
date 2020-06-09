@@ -23,3 +23,28 @@
   message: 'HTTP GET /allcontacts',
   timestamp: '2020-06-09 09:50:17'
 }
+{
+  meta: {
+    req: {
+      url: '/allcontacts',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.25.0',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': '8e2e9e80-d740-470e-8382-3399bf2f697e',
+        host: 'localhost:3000',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/allcontacts',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 2
+  },
+  level: '\u001b[32minfo\u001b[39m',
+  message: 'HTTP GET /allcontacts',
+  timestamp: '2020-06-09 09:56:28'
+}

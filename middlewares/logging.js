@@ -1,10 +1,16 @@
-const { format, transports } = require('winston'); 
-const { logger, errorLogger } = require('express-winston'); 
-module.exports = {                    
+const {
+  format,
+  transports
+} = require('winston');
+const {
+  logger,
+  errorLogger
+} = require('express-winston');
+module.exports = {
   log: logger({
     transports: [
       new transports.File({
-        filename: 'Info.log',         
+        filename: 'Info.log',
         level: 'info'
       })
     ],
