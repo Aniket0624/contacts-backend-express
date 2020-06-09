@@ -1,0 +1,25 @@
+{
+  meta: {
+    req: {
+      url: '/allcontacts',
+      headers: {
+        'user-agent': 'PostmanRuntime/7.25.0',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': '50ab1540-5ecb-4b38-8f17-c658254b2aa8',
+        host: 'localhost:3000',
+        'accept-encoding': 'gzip, deflate, br',
+        connection: 'keep-alive'
+      },
+      method: 'GET',
+      httpVersion: '1.1',
+      originalUrl: '/allcontacts',
+      query: {}
+    },
+    res: { statusCode: 200 },
+    responseTime: 6
+  },
+  level: '\u001b[32minfo\u001b[39m',
+  message: 'HTTP GET /allcontacts',
+  timestamp: '2020-06-09 09:50:17'
+}
